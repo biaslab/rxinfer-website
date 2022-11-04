@@ -1,0 +1,54 @@
+.feature-card {
+    height: 100%;
+  }
+
+.ecosystem-card {
+  border-radius: 10px;
+  padding: 20px;
+  padding-bottom: 30px;
+  transition: .2s ease;
+  background-color: white;
+  text-align: center;
+  height: 100%;
+}
+
+.ecosystem-card span {
+  font-weight: 400;
+  color: #777;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: lato,sans-serif;
+}
+
+.ecosystem-card i {
+  font-size: 20px;
+  color: #0aa8a7
+}
+
+.ecosystem-card .btn {
+  margin-top: 15px;
+  border-radius: 2px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.ecosystem-card .btn i {
+  color: black;
+}
+
+.code {
+    border-radius: 10px;
+    padding: 1rem;
+    padding-left: 2rem;
+    background-color: #f3f8f7;
+    tab-size: 3;
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 2px, rgb(0 0 0 / 7%) 0px 2px 4px, rgb(0 0 0 / 7%) 0px 4px 8px, rgb(0 0 0 / 7%) 0px 8px 16px, rgb(0 0 0 / 7%) 0px 16px 32px, rgb(0 0 0 / 7%) 0px 32px 64px;
+}
+
+.hljs-meta { color: rgb(5, 46, 211) }         /* macros */
+.hljs-keyword { color:#eb4416 }               /* keywords */
+.hljs-comment { color: rgb(17, 122, 17) }     /* comments */
+.hljs-built_in { color: #8432e9 }             /* functions and variables */
+.hljs-title { color: #8432e9 }                /* macro function */
+.hljs-type { color: #896e0d }                 /* types */
